@@ -1,0 +1,29 @@
+.notFound {
+  @include verticalCenter;
+  height: 95vh;
+  max-width: 1200px;
+  text-align: center;
+  background: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif)
+    no-repeat center;
+}
+.notFoundContent {
+  margin-top: 30rem;
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    margin-bottom: 3rem;
+  }
+
+  a {
+    padding: 1rem 2rem;
+    background-color: $color-2;
+    border-radius: $borderRadius;
+    transition: 0.2s;
+
+    &:hover {
+      background-color: $color-3;
+    }
+  }
+}
